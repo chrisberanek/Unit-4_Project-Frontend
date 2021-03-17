@@ -14,7 +14,11 @@ class SchoolDetail extends Component {
     return (
         <section className='Schools'>
             <h1>School Details</h1>
-            { schoolDetail.name }
+            { schoolDetail.name }<br></br>
+            { schoolDetail.region }<br></br>
+            { schoolDetail.program }<br></br>
+            { schoolDetail.sport }<br></br>
+            { schoolDetail.img }
         </section>
     );
  }

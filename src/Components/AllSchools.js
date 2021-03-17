@@ -1,9 +1,9 @@
 //import './AllSchools.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FormControl } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+// import { FormControl } from "react-bootstrap";
+// import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
 
 export default function AllSchools(props) {
     console.log(props)
