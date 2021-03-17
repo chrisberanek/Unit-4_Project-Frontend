@@ -29,7 +29,6 @@ export default function AllSchools(props) {
                 <input type='text' placeholder='Image URL' name='img' />
                 <input type='submit' value='Create School' />
             </form>           
-            
         </section>
     );
 }

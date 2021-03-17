@@ -6,8 +6,6 @@ import SchoolDetail from './Components/School';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 class App extends Component {
   constructor() {
     super();
@@ -38,12 +36,6 @@ class App extends Component {
     }); 
     this.getAllSchools()
   }
-
-  // addArtist = async (e) => {
-  //   e.preventDefault();
-  //   const name = e.target.name.value;
-  //   await axios.post(this.artistsBaseUrl, { name/region/program/sport/img });
-  //   await this.getAllArtists()
 
   deleteSchool = async (schoolId) => {
     await axios.delete(`${this.schoolsBaseUrl}/${schoolId}`);
