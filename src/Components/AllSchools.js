@@ -1,6 +1,9 @@
 //import './AllSchools.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FormControl } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 export default function AllSchools(props) {
     console.log(props)
@@ -15,12 +18,18 @@ export default function AllSchools(props) {
     return (
         <section className='AllSchools'>
             <h1>All Schools</h1>
-            <form onSubmit={props.createSchools}>
-                <input placeholder='name' name='name' />
-                <input type='submit' value='create school' />
-            </form>
+            <br></br>           
+           <ul>{AllSchools}</ul> 
+           <br></br>
+           <form onSubmit={props.createSchool}>
+                <input type='text' placeholder='School Name' name='name' />
+                <input type='text' placeholder='US Region' name='region' />
+                <input type='text' placeholder='Academic Program' name='program' />
+                <input type='text' placeholder='Sport' name='sport' />
+                <input type='text' placeholder='Image URL' name='img' />
+                <input type='submit' value='Create School' />
+            </form>           
             
-            <ul>{AllSchools}</ul>
         </section>
     );
 }
