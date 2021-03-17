@@ -6,10 +6,12 @@ import SchoolDetail from './Components/School';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
 class App extends Component {
   constructor() {
     super();
-    this.schoolsBaseUrl = 'http://localhost:3001/schools';
+    this.schoolsBaseUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3001/schools';
     this.state = {
       schools: []
     }
