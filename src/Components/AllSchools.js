@@ -22,12 +22,12 @@ export default function AllSchools(props) {
            <ul>{AllSchools}</ul> 
            <br></br>
            <form onSubmit={props.createSchool}>
-                <input type='text' placeholder='School Name' name='name' />
-                <input type='text' placeholder='US Region' name='region' />
-                <input type='text' placeholder='Academic Program' name='program' />
-                <input type='text' placeholder='Sport' name='sport' />
-                <input type='text' placeholder='Image URL' name='img' />
-                <input type='submit' value='Create School' />
+                <input type='text' placeholder='School Name' name='name'/><br></br>
+                <input type='text' placeholder='US Region' name='region'/><br></br>
+                <input type='text' placeholder='Academic Program' name='program'/><br></br>
+                <input type='text' placeholder='Sport' name='sport'/><br></br>
+                <input type='text' placeholder='Image URL' name='img'/><br></br>
+                <input type='submit' value='Create School'/>
             </form>           
         </section>
     );

@@ -1,6 +1,4 @@
-//import './Schools.css';
-// import React from 'react';
-//import { Link } from 'react-router-dom';
+import './School.css';
 
 import React, { Component } from "react";
 
@@ -20,7 +18,9 @@ class SchoolDetail extends Component {
                 {schoolDetail.program}<br></br>
                 {schoolDetail.sport}<br></br>
             </section>
-            <img src={schoolDetail.img}/>
+            <div className='image'>
+                <img src={schoolDetail.img} />
+            </div>
         </div>
     );
  }
