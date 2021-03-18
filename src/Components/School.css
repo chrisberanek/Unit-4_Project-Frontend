@@ -1,7 +1,14 @@
-/* .image {
+.school_container {
     display: flex;
-    max-width: 50px;
-    max-height: 50px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-   } */
+
+}
+
+
+img {
+
+    width: 500px;
+
+   }

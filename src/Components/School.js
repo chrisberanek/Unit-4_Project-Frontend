@@ -10,7 +10,7 @@ class SchoolDetail extends Component {
     });
 
     return (
-        <div>
+        <div className='school_container'>
             <section className='Schools'>
                 <h1>School Details</h1>
                 {schoolDetail.name}<br></br>
