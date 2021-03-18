@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Unit-4_Project-College Selection List Big Board
+## Project #4: Building a Full-Stack Application with React Frontend and Node/Express Backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Student Athlete College Search Tool
 
-## Available Scripts
+This application is a DEMO version for the Database Administrator role for a student college selection tool.
 
-In the project directory, you can run:
+High school students that plan to attend college and who also currently participate in one or more sports and would like to continue their altletic career at the next level can use this application to narrow the search parameters down by filtering factors such as:
 
-### `npm start`
+Geopgraphic Region of the US
+Minumum Academic Requirement for a School
+Sports Offered by a given School
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application is based on the technology platform of utilizing an "MVC" (Model, View, Controller) with CRUD functionality on a Student database that uses RESTful routes via JavaScript and HTML using React, Express and Node.js frameworks. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Links
+#### GitHub repo: https://github.com/chrisberanek/Unit-4_Project-Frontend
+#### GitHub repo: https://github.com/chrisberanek/Unit-4_Project-Backend
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Heroku Front-End repo: https://git.heroku.com/unit-4-project-frontend.git
+#### Heroku Back-End repo: https://git.heroku.com/unit-4-project-backend.git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Utilized:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   Node.js
+*   Express
+*   React.js
+*   JSX
+*   Postgres
+*   Sequelize
+*   GitHub
+*   Visual Studio Code
+*   JavaScript ES6.0
+*   HTML 5
+*   React Bootstrap
+*   pgAdmin
+*   HEROKU
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## User Stories (Database Administrator)
 
-### `npm run eject`
+1. An Admin should be able to select a geographical region to filter schools.
+2. An Admin should be able to populate what sports are offered by a given school.
+3. An Admin should be able to add one or more schools on a selection list page.
+4. Schools should be able to be added or removed from the School database by an admin account access.
+5. An Admin should be able to upload an image URL for a school into the database.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Future Development Opportunities
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## User Stories (Database Administrator)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. A student should be able to sign up for a new "profile" account.
+2. A student should be able to edit or update their profile.
+3. A student should be able to delete their own profile page.
+4. A student should be able to log in to their existing profile page.
+5. A student should be able to select a preferred geographical region to filter schools.
+6. A student should be able to enter their ACT score and use it to filter schools by minimum ACT requirements of a given school.
+7. A student should be able to determine what sports are offered by a given school and select from a list.
+8. A student should be able to add one or more selected schools to their preference list on their profile page.
+9. A student should be able to create and change their own username and password to access profile page.
+10. Schools should be able to be added, updated or removed from the School database by an admin account access.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Copyright (c) 2021 Chris Beranek
