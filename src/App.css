@@ -18,11 +18,9 @@
 }
 
 .text-body {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-
+  font-size: 25px;
+  text-align: left;
+  padding: 25px;
 }
 
 .fixed-bottom {

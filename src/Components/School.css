@@ -3,12 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
+span {
+    font-weight: bold;
+}
+
+.school_info {
+    text-align: justify;
+}
 
 img {
-
     width: 500px;
-
    }

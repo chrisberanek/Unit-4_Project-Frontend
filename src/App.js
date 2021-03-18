@@ -61,12 +61,14 @@ class App extends Component {
         </nav>
         <main>
           <Switch>
-            <Route exact path='/'>
-              <h1>Welcome to the College Big Board!</h1>
+            <Route exact path='/'><br></br>
+              <h2>Welcome to the College Selection Big Board!</h2>
               <body className="text-body">
-                App detail description goes here kiddos!!!!!
-
-
+                This is the Database Administrator demo version of an online selection tool for students
+                to research and create lists for making a decision on which schools they may want to apply.
+                For MVP project requirements this version uses one data table and handles the Create, Read
+                and Delete functions in the CRUD model. Click the School List button in the navbar above to 
+                launch the demo.
               </body>
             </Route>
             <Route exact path='/schools'>
